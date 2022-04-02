@@ -38,7 +38,7 @@ li a{
     color: #B8C6FF;
     letter-spacing: 4px;
     font-size: 4em;
-    padding : 1em;
+    padding : 1vh;
     text-transform:uppercase ;
 }
 
@@ -56,7 +56,7 @@ li a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1em 5em;
+    padding: 1vh 6vw;
     align-items: center;
 }
 
@@ -245,5 +245,17 @@ li a{
     html{
         overflow-x: hidden !important;
         width: 100vw !important;
+    }
+}
+@media (max-width :530px){
+    .heading{
+        font-size: 5vh;
+    }
+}
+
+@media (max-width :340px){
+    .heading{
+        font-size: 3vh;
+        letter-spacing: 1px;
     }
 }
