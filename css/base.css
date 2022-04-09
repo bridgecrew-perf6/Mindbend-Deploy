@@ -284,6 +284,7 @@ a:focus {
 	display: inline-block;
 	font-size: 16px;
 	border-radius: 4px;
+	margin-right: 5px;
 }
 
 .main_cards_div{
