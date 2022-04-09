@@ -765,3 +765,17 @@ a.demo--current {
 	flex-direction: column;
 	width: 100vw;
 }
+
+.top-btn{
+    position: fixed;
+    bottom:1%;
+    right:1%;
+	background-color: #110046;
+	color:white;
+	border-radius: 50%;
+	height: 80px;
+    width: 80px;
+	cursor: pointer;
+	z-index: 100;
+	font-size: 30px;
+}
