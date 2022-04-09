@@ -498,6 +498,7 @@ a:focus {
 	display: flex;
 	flex-direction: column;
 	font-size: 1.3rem;
+	min-width: 100px;
 }
 
 .content_desc{
