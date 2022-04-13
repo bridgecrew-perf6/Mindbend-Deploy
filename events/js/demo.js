@@ -36,3 +36,8 @@
 		navigate(linkEl);
 	});
 }
+
+function gototop(){
+	document.body.scrollTop = document.documentElement.scrollTop = 0;
+	// console.log('skjfbker')
+}

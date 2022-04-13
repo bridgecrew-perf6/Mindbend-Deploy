@@ -11,6 +11,7 @@ html ,body{
     /* overflow-x: hidden; */
     transition: 0.5s ease;
     background-color: var(--color-dark);
+    scroll-behavior: smooth;
 }
 
 body::-webkit-scrollbar{
@@ -56,7 +57,7 @@ li a{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 1vh 6vw;
+    padding: 1vh 5vw;
     align-items: center;
 }
 
@@ -122,30 +123,7 @@ li a{
     font-weight: 400;
 }
 
-.social-links{
-    height: 1em;
-    color: white;
-    margin-top: 1.5em;
-}
 
-.twitter-svg{
-    padding: 0.2em;
-    
-}
-
-.linkedin-svg{
-    padding: 0.2em;
-}
-
-.twitter-svg:hover{
-    background-color: rgb(203, 201, 245);
-    border-radius: 20%;
-}
-
-.linkedin-svg:hover{
-    background-color: rgb(203, 201, 245);
-    border-radius: 20%;
-}
 
 .content{
     width: 100%;
@@ -205,6 +183,20 @@ li a{
     opacity: 0.6;
 }
 
+.top-btn{
+    position: fixed;
+    bottom:1%;
+    right:1%;
+	background-color: #110046;
+	color:white;
+	border-radius: 50%;
+	height: 80px;
+    width: 80px;
+	cursor: pointer;
+	z-index: 100;
+	font-size: 30px;
+}
+
 @media (max-width:910px)
 {
     body{
@@ -246,16 +238,55 @@ li a{
         overflow-x: hidden !important;
         width: 100vw !important;
     }
+    .top-btn{
+        position: fixed;
+        bottom:1%;
+        right:1%;
+        background-color: #110046;
+        color:white;
+        border-radius: 50%;
+        height: 65px;
+        width: 65px;
+        cursor: pointer;
+        z-index: 100;
+        font-size: 30px;
+    }
 }
 @media (max-width :530px){
     .heading{
         font-size: 5vh;
     }
+    .top-btn{
+        position: fixed;
+        bottom:1%;
+        right:1%;
+        background-color: #110046;
+        color:white;
+        border-radius: 50%;
+        height: 60px;
+        width: 60px;
+        cursor: pointer;
+        z-index: 100;
+        font-size: 30px;
+    }
 }
 
-@media (max-width :340px){
+@media (max-width :380px){
     .heading{
         font-size: 3vh;
         letter-spacing: 1px;
+    }
+    .top-btn{
+        position: fixed;
+        bottom:1%;
+        right:1%;
+        background-color: #110046;
+        color:white;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+        z-index: 100;
+        font-size: 20px;
     }
 }

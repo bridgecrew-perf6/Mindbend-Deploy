@@ -37,6 +37,6 @@
 	});
 }
 function gototop(){
-	window.scrollTo({top:0,behavior:'smooth'});
+	document.body.scrollTop = document.documentElement.scrollTop = 0;
 	// console.log('skjfbker')
 }

@@ -38,6 +38,5 @@
 }
 
 function gototop(){
-	window.scrollTo({top:0,behavior:'smooth'});
-	// console.log('skjfbker')
+	document.body.scrollTop = document.documentElement.scrollTop = 0;
 }
