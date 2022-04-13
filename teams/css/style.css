@@ -38,9 +38,15 @@ li a{
 .heading{
     color: #B8C6FF;
     letter-spacing: 4px;
-    font-size: 4em;
+    font-size: 3em;
     padding : 1vh;
     text-transform:uppercase ;
+}
+
+@media(max-width: 900px) {
+    .heading{
+        font-size: 2em;
+    }
 }
 
 .heading-div{
